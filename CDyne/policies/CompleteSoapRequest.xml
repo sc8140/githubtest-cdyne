@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="false" async="false" name="CompleteSoapRequest">
+    <DisplayName>CompleteSoapRequest</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Set>
+        <Headers/>
+        <QueryParams/>
+        <FormParams/>
+        <Payload contentType="text/xml" variablePrefix="%" variableSuffix="#">
+        		%soap_request#
+      		</Payload>
+        <Verb>POST</Verb>
+        <Path></Path>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"></AssignTo>
+</AssignMessage>

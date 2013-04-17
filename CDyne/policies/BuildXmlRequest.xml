@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="false" async="false" name="BuildXmlRequest">
+    <DisplayName>BuildXmlRequest</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Set>
+        <Headers/>
+        <QueryParams/>
+        <FormParams/>
+        <Payload contentType="application/xml">
+            <request>
+                <zip>{apigee.zip_code}</zip>  
+          	</request>
+      	</Payload>
+        <Path></Path>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"></AssignTo>
+</AssignMessage>

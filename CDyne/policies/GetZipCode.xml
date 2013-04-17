@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables enabled="true" continueOnError="false" async="false" name="GetZipCode">
+    <DisplayName>GetZipCode</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <URIPath>
+        <Pattern ignoreCase="true">/{zip_code}/</Pattern>
+    </URIPath>
+    <URIPath>
+        <Pattern ignoreCase="true">/{zip_code}</Pattern>
+    </URIPath>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>apigee</VariablePrefix>
+</ExtractVariables>

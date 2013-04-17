@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="weatherv2">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt>1365457587784</CreatedAt>
+    <CreatedBy>adminui@apigee.com</CreatedBy>
+    <Description>weatherv2</Description>
+    <DisplayName>weatherv2</DisplayName>
+    <LastModifiedAt>1365457588356</LastModifiedAt>
+    <LastModifiedBy>adminui@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>BuildXmlRequest</Policy>
+        <Policy>CompleteSoapRequest</Policy>
+        <Policy>GetZipCode</Policy>
+        <Policy>RaiseFault-1</Policy>
+        <Policy>ReSetOriginalVerb</Policy>
+        <Policy>SaveOriginalVerb</Policy>
+        <Policy>SendResponseAsJson</Policy>
+        <Policy>StripPathSuffix</Policy>
+        <Policy>XSLTransform-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>xsl://weather_forecast.xsl</Resource>
+        <Resource>jsc://replaceOriginalVerb</Resource>
+        <Resource>jsc://saveOriginalVerb.js</Resource>
+        <Resource>jsc://setCopyPathSuffixFalse.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

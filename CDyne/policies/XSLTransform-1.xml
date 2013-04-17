@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XSL enabled="true" continueOnError="false" async="false" name="XSLTransform-1">
+    <DisplayName>BuildSoapRequestXslt</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <OutputVariable>soap_request</OutputVariable>
+    <Parameters ignoreUnresolvedVariables="true"/>
+    <ResourceURL>xsl://weather_forecast.xsl</ResourceURL>
+    <Source>request</Source>
+</XSL>

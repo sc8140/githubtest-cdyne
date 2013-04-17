@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript timeLimit="200" enabled="true" continueOnError="false" async="false" name="ReSetOriginalVerb">
+    <DisplayName>ReSetOriginalVerb</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IncludeURL>jsc://replaceOriginalVerb</IncludeURL>
+    <ResourceURL>jsc://replaceOriginalVerb</ResourceURL>
+</Javascript>

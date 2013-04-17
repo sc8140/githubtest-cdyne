@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Javascript timeLimit="200" enabled="true" continueOnError="false" async="false" name="SaveOriginalVerb">
+    <DisplayName>SaveOriginalVerb</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IncludeURL>jsc://saveOriginalVerb.js</IncludeURL>
+    <ResourceURL>jsc://saveOriginalVerb.js</ResourceURL>
+</Javascript>

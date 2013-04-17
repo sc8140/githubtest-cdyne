@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault enabled="true" continueOnError="false" async="false" name="RaiseFault-1">
+    <DisplayName>Display Zip code</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="text/plain">
+                  	Zip code: {apigee.zip_code}, Request URI: {request.uri}</Payload>
+            <StatusCode>500</StatusCode>
+            <ReasonPhrase></ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>
