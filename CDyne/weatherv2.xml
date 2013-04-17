@@ -23,7 +23,7 @@
     </ProxyEndpoints>
     <Resources>
         <Resource>xsl://weather_forecast.xsl</Resource>
-        <Resource>jsc://replaceOriginalVerb</Resource>
+        <Resource>jsc://replaceOriginalVerb.js</Resource>
         <Resource>jsc://saveOriginalVerb.js</Resource>
         <Resource>jsc://setCopyPathSuffixFalse.js</Resource>
     </Resources>
