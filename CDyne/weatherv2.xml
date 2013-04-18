@@ -2,11 +2,11 @@
 <APIProxy revision="5" name="weatherv2">
     <ConfigurationVersion minorVersion="0" majorVersion="4"/>
     <CreatedAt>1365457587784</CreatedAt>
-    <CreatedBy>adminui@apigee.com</CreatedBy>
+    <CreatedBy>m.c.johnson@accenture.com</CreatedBy>
     <Description>weatherv2</Description>
     <DisplayName>weatherv2</DisplayName>
     <LastModifiedAt>1365457588356</LastModifiedAt>
-    <LastModifiedBy>adminui@apigee.com</LastModifiedBy>
+    <LastModifiedBy>m.c.johnson@accenture.com</LastModifiedBy>
     <Policies>
         <Policy>BuildXmlRequest</Policy>
         <Policy>CompleteSoapRequest</Policy>
