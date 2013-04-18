@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <APIProxy revision="5" name="weatherv2">
-    <ConfigurationVersion minorVersion="1" majorVersion="4"/>
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
     <CreatedAt>1365457587784</CreatedAt>
     <CreatedBy>m.c.johnson@accenture.com</CreatedBy>
     <Description>weatherv2</Description>
