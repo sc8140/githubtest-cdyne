@@ -3,6 +3,6 @@
     <DisplayName>ReSetOriginalVerb</DisplayName>
     <FaultRules/>
     <Properties/>
-    <IncludeURL>jsc://replaceOriginalVerb</IncludeURL>
-    <ResourceURL>jsc://replaceOriginalVerb</ResourceURL>
+    <IncludeURL>jsc://replaceOriginalVerb.js</IncludeURL>
+    <ResourceURL>jsc://replaceOriginalVerb.js</ResourceURL>
 </Javascript>
