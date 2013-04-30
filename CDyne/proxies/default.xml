@@ -2,20 +2,6 @@
 <ProxyEndpoint name="default">
     <Description>Default Proxy to create flows on an API</Description>
     <FaultRules/>
-    <Flows/>
-    <PostFlow name="PostFlow">
-        <Request>
-            <Step>
-                <FaultRules/>
-                <Name>XSLTransform-1</Name>
-            </Step>
-            <Step>
-                <FaultRules/>
-                <Name>CompleteSoapRequest</Name>
-            </Step>
-        </Request>
-        <Response/>
-    </PostFlow>
     <PreFlow name="PreFlow">
         <Request>
             <Step>
@@ -33,6 +19,20 @@
         </Request>
         <Response/>
     </PreFlow>
+    <Flows/>
+    <PostFlow name="PostFlow">
+        <Request>
+            <Step>
+                <FaultRules/>
+                <Name>XSLTransform-1</Name>
+            </Step>
+            <Step>
+                <FaultRules/>
+                <Name>CompleteSoapRequest</Name>
+            </Step>
+        </Request>
+        <Response/>
+    </PostFlow>
     <HTTPProxyConnection>
         <BasePath>/forecast/v2/</BasePath>
         <Properties/>
