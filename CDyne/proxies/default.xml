@@ -24,7 +24,7 @@
         <Request>
             <Step>
                 <FaultRules/>
-                <Name>XSLTransform-1</Name>
+                <Name>XSLTransformationToSoap</Name>
             </Step>
             <Step>
                 <FaultRules/>

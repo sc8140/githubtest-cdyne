@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<XSL enabled="true" continueOnError="false" async="false" name="XSLTransform-1">
+<XSL enabled="true" continueOnError="false" async="false" name="XSLTransformationToSoap">
     <DisplayName>BuildSoapRequestXslt</DisplayName>
     <FaultRules/>
     <Properties/>
